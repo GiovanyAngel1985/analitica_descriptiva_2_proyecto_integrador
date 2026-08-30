@@ -1,0 +1,65 @@
+# Entornos virtuales de Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Resultados regenerables / pesados
+outputs/
+data_processed/
+
+# Datos crudos: no subir microdatos GEIH
+# Se conserva la estructura de carpetas con archivos .gitkeep
+data_raw/*
+!data_raw/.gitkeep
+!data_raw/**/.gitkeep
+
+# Exportaciones locales
+documento/*.aux
+documento/*.bbl
+documento/*.blg
+documento/*.fdb_latexmk
+documento/*.fls
+documento/*.log
+documento/*.out
+documento/*.synctex.gz
+
+# Archivos de respaldo de Office
+~$*
